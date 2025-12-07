@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>The Wondering Photographer</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Link to external CSS file -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <main id="home">
+
+    <!-- Decorative divider image above the gallery -->
+    <img src="TheDivider.png" alt="" class="section-divider">
+
+    <!-- Gallery section that contains cart icon and photos -->
+    <section id="gallery" class="gallery-section" aria-label="Photo gallery">
+
+      <!-- Shopping cart icon in the top-right of the gallery -->
+      <img src="shopping.svg" alt="Shopping basket" class="shopping-icon">
+
+      <!-- Container for all photos and captions -->
+      <div class="photo-row">
+
+        <!-- Single photo with caption and Add to basket button -->
+        <figure class="photo-item">
+          <img src="OceanPhoto.jpg" alt="Calm blue sea and white rocks at sunset">
+          <figcaption>
+            This was from a fabulous trip to the coast of Greenland with my family. The water was lovely – but very cold!
+          </figcaption>
+          <button class="add-basket">Add to basket</button>
+        </figure>
+
+        <figure class="photo-item">
+          <img src="BridgePhoto.jpg" alt="Red bridge tower reaching into a blue sky">
+          <figcaption>
+            A picture of the Golden Gate Bridge. New York! New York!
+          </figcaption>
+          <button class="add-basket">Add to basket</button>
+        </figure>
+
+        <figure class="photo-item">
+          <img src="ValleyPhoto.jpg" alt="Long blue fjord between steep mountains">
+          <figcaption>
+            Another great photo from Greenland. It is a river valley where a glacier used to be.
+          </figcaption>
+          <button class="add-basket">Add to basket</button>
+        </figure>
+
+        <figure class="photo-item">
+          <img src="WaterfallPhoto.jpg" alt="Tall waterfall falling into a blue pool with green moss">
+          <figcaption>
+            The waterfall made such a lovely sound. I could have fallen asleep!
+          </figcaption>
+          <button class="add-basket">Add to basket</button>
+        </figure>
+
+      </div>
+    </section>
+
+    <!-- Footer text for copyright -->
+    <section id="about" class="about-section">
+      <h2>Copyright The Wondering Photographer 2018.</h2>
+    </section>
+
+    <!-- Main navigation links at the bottom (Home, Gallery, About) -->
+    <nav class="main-nav" aria-label="Main navigation">
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#about">About</a></li>
+      </ul>
+    </nav>
+
+  </main>
+
+</body>
+</html>

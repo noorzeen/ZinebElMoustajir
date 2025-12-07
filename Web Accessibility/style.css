@@ -1,0 +1,88 @@
+/* page base styles */
+body {
+  background-color: #ff66b5;
+  font-family: Arial, sans-serif;
+  margin: 0;
+}
+
+/* divider image above gallery */
+.section-divider {
+  display: block;
+  margin: 10px auto 20px auto;
+}
+
+/* gallery and cart */
+.gallery-section {
+  position: relative;
+  width: 80%;
+  max-width: 600px;
+  margin: 0 auto 40px auto;
+}
+
+.shopping-icon {
+  position: absolute;
+  top: -5px;
+  right: 10px;
+  width: 35px;
+}
+
+/* photos, captions, buttons */
+.photo-item {
+  margin: 0;
+}
+
+.photo-item img {
+  width: 100%;
+  display: block;
+}
+
+.photo-item figcaption {
+  background-color: #e0fff8;
+  color: #00a9ff;
+  padding: 8px;
+  margin: 0;
+  font-weight: bold;
+}
+
+.add-basket {
+  display: block;
+  margin: 0;
+  padding: 2px 6px;
+  font-size: 10px;
+  border: 1px solid #000;
+  background-color: #ffffff;
+  cursor: pointer;
+}
+
+/* about / copyright text */
+.about-section {
+  text-align: left;
+  width: 80%;
+  max-width: 600px;
+  margin: 20px auto 10px auto;
+}
+
+.about-section h2 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* navigation: Home, Gallery, About */
+.main-nav {
+  width: 80%;
+  max-width: 600px;
+  margin: 0 auto 40px auto;
+}
+
+.main-nav ul {
+  list-style: disc;
+  padding-left: 20px;
+  margin: 0;
+}
+
+.main-nav a {
+  font-size: 20px;
+  font-weight: bold;
+  color: #0000ff;
+  text-decoration: underline;
+}

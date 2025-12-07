@@ -1,0 +1,68 @@
+/* page background */
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif; /* non-default font [attached_file:64] */
+  background-color: #d3d3d3; /* grey around the card */
+}
+
+/* center white rounded card */
+.page {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  padding: 30px 20px;
+}
+
+.story-card {
+  background-color: #ffffff;
+  max-width: 720px;
+  padding: 50px 43px 60px;
+  border-radius: 30px;
+  box-sizing: border-box;
+}
+
+/* headings in green, big like screenshot */
+.story-header h1 {
+  margin: 0 0 20px;
+  font-size: 4rem;
+  text-align: center;
+  color: #2ca01c; /* bright green */
+}
+
+.story-header h2 {
+  margin: 0 0 40px;
+  font-size: 2.3rem;
+  text-align: center;
+  color: #2ca01c;
+}
+
+/* section headings */
+.story-card h2 {
+  margin: 50px 0 20px;
+  font-size: 2.2rem;
+  text-align: center;
+  color: #2ca01c;
+}
+p
+.story-card h3 {
+  margin: 0 0 22x;
+  font-size: 2rem;
+  color: #ffffff;
+}
+
+/* paragraphs */
+.story-card p {
+  line-height: 1.5;
+  font-size: 1rem;
+  margin-top: 0;
+}
+
+/* green “Did you know?” box */
+.fact-box {
+  margin-top: 50px;
+  margin-bottom: 40px;
+  padding: 26px 26px 28px;
+  background-color: #2ca01c;
+  color: #ffffff;
+  border-radius: 24px;
+}

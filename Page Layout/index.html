@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>J's Gallery</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Header: title and main links -->
+  <header class="page-header">
+    <h1>J's Gallery</h1>
+    <nav class="top-nav" aria-label="Main navigation">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#gallery">Gallery</a>
+    </nav>
+  </header>
+
+  <main id="home">
+
+    <!-- Top section: text on the left, cow photo on the right -->
+    <section class="intro-section" aria-labelledby="intro-heading">
+      <h2 id="intro-heading" class="visually-hidden">Introduction</h2>
+
+      <div class="intro-text">
+        <p>Lorem ipsum odor amet, consectetuer adipiscing elit. Praesent mollis adipiscing per id libero libero. Tempus pretium netus molestie scelerisque facilisis tristique volutpat ultricies. Nostra ligula ac pulvinar rutrum non rhoncus mauris facilisi. Quisque maximus commodo sollicitudin, montes congue imperdiet. Est malesuada vivamus vestibulum ante aenean class. Per integer aptent ullamcorper sagittis posuere dignissim morbi scelerisque. Fringilla primis sagittis lorem erat integer; vulputate nullam. Porta purus habitant id fermentum nec ex, proin mauris sem.</p>
+
+        <p>Lectus ultrices nibh lobortis tempus facilisis sit conubia taciti. Non torquent amet nibh elit ante fermentum praesent cras. Et suspendisse egestas eros erat aptent sollicitudin. Nulla tortor purus posuere auctor himenaeos malesuada. Turpis phasellus enim venenatis aliquam pellentesque senectus, id ultrices. Praesent tellus consequat phasellus cubilia mattis mauris natoque litora. Fringilla cursus montes inceptos nec venenatis platea.</p>
+      </div>
+
+      <figure class="intro-image">
+        <img src="COW.jpg" alt="Brown cow standing on a beach with snowy mountains behind">
+      </figure>
+    </section>
+
+    <!-- Gallery: video and photos in 2-column rows -->
+    <section id="gallery" class="gallery-section" aria-label="Media gallery">
+      <div class="gallery-grid">
+
+        <!-- Row 1: video + img4598 -->
+        <div class="gallery-item">
+          <video src="video.mp4" controls>
+            Your browser does not support the video tag.
+          </video>
+        </div>
+
+        <div class="gallery-item">
+          <img src="img4598.jpg" alt="Sunset over tree-covered hills and valleys">
+        </div>
+
+        <!-- Row 2: img4532 + photo_2018_02_01 -->
+        <div class="gallery-item">
+          <img src="img4532.jpg" alt="Vintage camera resting on piano keys">
+        </div>
+
+        <div class="gallery-item">
+          <img src="photo_2018_02_01.jpg" alt="Snowy mountains behind dark evergreen trees">
+        </div>
+
+        <!-- Row 3: photo_2018_02_31 + johns car jpg -->
+        <div class="gallery-item">
+          <img src="photo_2018_02_31.jpg" alt="Foggy railway platforms lit by yellow lights at night">
+        </div>
+
+        <div class="gallery-item">
+          <img src="johns car jpg.jpg" alt="Old car covered in snow parked by a worn building">
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Hidden About section so the About link works -->
+    <section id="about" class="visually-hidden">
+      <h2>About</h2>
+      <p>This hidden section exists so the About link has a place to go.</p>
+    </section>
+
+  </main>
+</body>
+</html>
